@@ -29,14 +29,12 @@ export default async function Preview() {
             /&gt;
           </code>
           <section className="ui-section" data-pf='{"sectionId":"gridSection", "title": "Grid Section"}'>
-            <Card />
-            <Card />
-            <Card />
-            <Card />
-            <Card />
-            <Card />
-            {/* <Card />
-          <Card /> */}
+            <Card uid="card1" />
+            <Card uid="card2" />
+            <Card uid="card3" />
+            <Card uid="card4" />
+            <Card uid="card5" />
+            <Card uid="card6" />
           </section>
         </section>
       </div>
