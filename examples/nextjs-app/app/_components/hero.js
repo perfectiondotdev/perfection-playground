@@ -1,5 +1,5 @@
 import { Chevron } from "./svgs/chevron";
-import { GitHub } from "./atoms/github";
+import { GitHub } from "./svgs/github";
 import Link from "next/link";
 
 export default function Hero() {

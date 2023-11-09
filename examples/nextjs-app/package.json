@@ -11,9 +11,10 @@
   "dependencies": {
     "@perfectiondev/oversite": "^1.0.54",
     "next": "14.0.1",
+    "node": "18.17.0",
     "react": "^18",
     "react-dom": "^18",
-    "node": "18.17.0"
+    "uuid": "^9.0.1"
   },
   "devDependencies": {
     "eslint": "^8",
