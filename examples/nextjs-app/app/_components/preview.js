@@ -1,10 +1,10 @@
-import Card from "./atoms/card";
-import { Lock } from "./svgs/lock";
+import Card from "./card";
+import { Lock } from "./img/lock";
 
 export default async function Preview() {
   return (
     <main>
-      <div className="ui-frame">
+      <div className="ui-frame" data-pf='{"sectionId":"gridSection", "title": "Grid Section"}'>
         <header>
           <nav />
           <span>
@@ -20,7 +20,7 @@ export default async function Preview() {
           </span>
           &gt;
         </code>
-        <section data-pf='{"sectionId":"gridSection", "title": "Grid Section"}'>
+        <section>
           <code>
             &lt;section{" "}
             <span>
@@ -28,14 +28,16 @@ export default async function Preview() {
             </span>{" "}
             /&gt;
           </code>
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
+          <section className="ui-section" data-pf='{"sectionId":"gridSection", "title": "Grid Section"}'>
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            {/* <Card />
+          <Card /> */}
+          </section>
         </section>
       </div>
     </main>

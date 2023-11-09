@@ -1,4 +1,4 @@
-import { Logo } from "./svgs/logo";
+import { Logo } from "./img/logo";
 
 export default async function Header() {
   return (
