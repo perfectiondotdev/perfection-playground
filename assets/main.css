@@ -4,6 +4,9 @@
 body {
 	--p: 2ch;
 	background-color: #140533;
+	background-image: url('/assets/images/bg.svg');
+	background-repeat: no-repeat;
+	background-size: 100vw auto;
 	color: #FFF;
 	display: grid;
 	font-family: system-ui;
@@ -21,6 +24,7 @@ h1 {
 	font-weight: 300;
 	line-height: 120%;
 	margin-block: 0;
+	text-wrap: balance;
 }
 h2 {
 	color: #BDBDBD;
@@ -28,6 +32,7 @@ h2 {
 	font-weight: 300;
 	line-height: 135%;
 	margin-block: 0;
+	text-wrap: balance;
 }
 main {
 	padding-inline: var(--p);
@@ -41,6 +46,7 @@ main {
 	border-radius: 100px;
 	border: 1px solid #989898;
 	display: inline-flex;
+	gap: .5em;
 	justify-content: center;
 	padding: .5rem 1rem;
 }
@@ -107,6 +113,11 @@ main {
 			display: inline-block;
 			width: 0.75em;
 		}
+		& span:first-of-type {
+			align-items: center;
+			display: flex;
+			gap: 4px;
+		}
 		& span:last-of-type {
 			font-size: 250%;
 			font-weight: 100;
@@ -149,8 +160,29 @@ main {
 	justify-items: center;
 	text-align: center;
 	margin-inline: auto;
-	max-inline-size: 800px;
+	max-inline-size: 1024px;
 	padding-inline: var(--p);
+}
+
+.ui-logo {
+	display: flex;
+	gap: 1ch;
+	& .ui-logo--petal { 
+		aspect-ratio: 1;
+		background-color: #FFF;
+		border-radius: 50%;
+		display: grid;
+		place-content: center;
+		width: 40px;
+		& > svg {
+			margin-left: 3px;
+			width: 20px;
+		}
+	}
+	& .ui-logo--text {
+		display: none;
+		width: 112px;
+	}
 }
 
 .ui-nav {
@@ -186,6 +218,7 @@ main {
 /* Media Queries */
 @media (min-width: 768px) {
 	.ui-frame { --gtc: 2; }
+	.ui-logo .ui-logo--text { display: block; }
 	.ui-nav menu { display: flex; }
 }
 @media (min-width: 1024px) {
