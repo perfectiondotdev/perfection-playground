@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@perfectiondev/oversite": "^1.0.54",
+    "@perfectiondev/oversite-helpers": "^1.0.5",
     "next": "14.0.1",
     "node": "18.17.0",
     "react": "^18",

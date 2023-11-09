@@ -1,7 +1,13 @@
 import Card from "./card";
 import { Lock } from "./img/lock";
+import { oversiteHelpers } from "../_clients/oversiteHelpers";
 
 export default async function Preview() {
+  //Perfection Helpers
+  const helpers = oversiteHelpers.instances.get("homepage");
+  const part = oversiteHelpers.section.parts(helpers?.section.parts, "gridSection");
+  console.log("Section (Outer) -> ", part("outer", ""));
+  console.log("Section (Inner) -> ", part("inner", "ui-section"));
   return (
     <main>
       <div className="ui-frame">
@@ -20,7 +26,7 @@ export default async function Preview() {
           </span>
           &gt;
         </code>
-        <section className="bg-section-dark">
+        <section className={part("outer", "")}>
           <code>
             &lt;section{" "}
             <span>
@@ -28,7 +34,7 @@ export default async function Preview() {
             </span>{" "}
             /&gt;
           </code>
-          <section className="ui-section" data-pf='{"sectionId":"gridSection", "title": "Grid Section"}'>
+          <section className={part("inner", "ui-section")} data-pf='{"sectionId":"gridSection", "title": "Grid Section"}'>
             <Card uid="card1" />
             <Card uid="card2" />
             <Card uid="card3" />
