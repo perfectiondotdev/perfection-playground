@@ -16,7 +16,7 @@ export const viewport = {
   viewportFit: "cover",
 };
 
-//Make sure caching and revalidation are off when on preview
+//Turn caching off when on preview
 const dynamicType = process.env.NEXT_PUBLIC_PERFECTION_PREVIEW == "true" ? "force-dynamic" : "auto";
 export const dynamic = dynamicType;
 
