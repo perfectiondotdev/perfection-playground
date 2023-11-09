@@ -1,11 +1,11 @@
-import Navigator from "./_components/navigator";
+import Preview from "./_components/preview";
 import Hero from "./_components/hero";
 
 export default function Home() {
   return (
     <>
       <Hero />
-      <Navigator />
+      <Preview />
     </>
   );
 }

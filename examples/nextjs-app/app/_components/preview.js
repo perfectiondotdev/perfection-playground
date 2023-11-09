@@ -1,7 +1,7 @@
 import Card from "./atoms/card";
 import { Lock } from "./svgs/lock";
 
-export default async function Navigator() {
+export default async function Preview() {
   return (
     <main>
       <div className="ui-frame">
