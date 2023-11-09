@@ -1,0 +1,34 @@
+{
+  "key": "card",
+  "name": "Card",
+  "description": "Generic Card",
+  "elements": [
+    {
+      "name": "Background Color",
+      "selector": "self",
+      "properties": [
+        {
+          "name": "Color",
+          "values": [
+            {
+              "name": "Dark",
+              "value": "fs-h1",
+              "display": "#000"
+            },
+            {
+              "name": "Purple",
+              "value": "fs-h2",
+              "display": "purple"
+            },
+            {
+              "name": "Orange",
+              "value": "fs-h3",
+              "display": "orange"
+            }
+          ],
+          "ui": "ui-colorgroup"
+        }
+      ]
+    }
+  ]
+}

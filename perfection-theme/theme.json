@@ -1,0 +1,36 @@
+{
+  "name": "Github Examples Theme",
+  "description": "Github Examples Theme",
+  "key": "github-examples-theme",
+  "decorations": [
+    {
+      "name": "Sugar",
+      "class": "bg-section-1"
+    },
+    {
+      "name": "Beluga",
+      "class": "bg-section-2"
+    },
+    {
+      "name": "Emptiness",
+      "class": "bg-section-3"
+    },
+    {
+      "name": "Zhen Pearl",
+      "class": "bg-section-4"
+    },
+    {
+      "name": "Eerie Black",
+      "class": "bg-section-5"
+    },
+    {
+      "name": "White Smoke",
+      "class": "bg-section-6"
+    }
+  ],
+  "layouts": {
+    "prebuilt": ["col_100", "col_50_50", "col_25_25_50", "col_50_25_25", "col_33_33_33", "col_25_25_25_25", "col_16_16_16_16_16_16", "slider", "slider_4col"],
+    "custom": []
+  },
+  "componentFolders": ["./components/"]
+}
