@@ -9,9 +9,16 @@ export const metadata = {
   description: "Perfection Example for Next.js",
 };
 
+export const viewport = {
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 1,
+  viewportFit: "cover",
+};
+
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en-US" dir="ltr">
       <body className={inter.className} data-pf='{"pageId": "homepage"}'>
         <Header />
         {children}

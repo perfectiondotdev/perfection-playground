@@ -12,18 +12,18 @@
           "values": [
             {
               "name": "Dark",
-              "value": "fs-h1",
-              "display": "#000"
+              "value": "pf-none",
+              "display": "#333"
             },
             {
               "name": "Purple",
-              "value": "fs-h2",
-              "display": "purple"
+              "value": "bg-purple",
+              "display": "#8f6bc8"
             },
             {
               "name": "Orange",
-              "value": "fs-h3",
-              "display": "orange"
+              "value": "bg-orange",
+              "display": "#CA701C"
             }
           ],
           "ui": "ui-colorgroup"

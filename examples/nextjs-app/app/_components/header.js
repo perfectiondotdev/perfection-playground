@@ -1,9 +1,27 @@
+import { Logo } from "./svgs/logo";
+
 export default async function Header() {
   return (
     <>
-      <section>
-        <p>Header component</p>
-      </section>
+      <nav className="ui-nav">
+        <div>
+          <Logo />
+          <menu>
+            <li>
+              <a href="">Solutions</a>
+            </li>
+            <li>
+              <a href="">Learn</a>
+            </li>
+            <li>
+              <a href="">About</a>
+            </li>
+          </menu>
+          <a href="" className="ui-cta ui-cta--sm">
+            Get started
+          </a>
+        </div>
+      </nav>
     </>
   );
 }

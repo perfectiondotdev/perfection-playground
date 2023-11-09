@@ -1,11 +1,11 @@
-import Browser from "./_components/browser";
+import Navigator from "./_components/navigator";
 import Hero from "./_components/hero";
 
 export default function Home() {
   return (
-    <main>
+    <>
       <Hero />
-      <Browser />
-    </main>
+      <Navigator />
+    </>
   );
 }

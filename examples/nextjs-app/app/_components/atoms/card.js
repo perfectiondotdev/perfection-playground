@@ -1,7 +1,16 @@
-export default async function Card() {
+export default function Card({ color }) {
   return (
     <>
-      <div data-pf='{"componentKey": "card", "title": "Card", "groupId": "gridCard"}'>Card component</div>
+      <div className={color} data-pf='{"componentKey": "card", "title": "Card", "groupId": "gridCard"}'>
+        <code>
+          &lt;component
+          <br />
+          <span>
+            data-pf="{"{"}...{"}"}"
+          </span>{" "}
+          /&gt;
+        </code>
+      </div>
     </>
   );
 }
