@@ -1,6 +1,6 @@
 import { v4 as uuidv4 } from "uuid";
 
-export default function Card({ color }) {
+export default function Card({ color = "bg-dark" }) {
   return (
     <>
       <div className={color} data-pf={`{"providerId":"generic-provider","componentKey": "card", "title": "Card", "groupId": "gridCard", "entryId": "${uuidv4()}","instanceId": "${uuidv4()}"}`}>

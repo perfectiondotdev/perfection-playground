@@ -157,7 +157,6 @@ main {
 
     & div {
       --code: #3aa94a;
-      background-color: #202020;
       border: 1px solid var(--bdc);
       border-block-end: 1px solid var(--bdc);
       border-radius: var(--bdrs);
@@ -225,11 +224,17 @@ main {
 }
 
 /* Modifiers */
+.bg-dark {
+  background: linear-gradient(152deg, #202020 1.28%, #191919 80.76%);
+}
 .bg-purple {
   background: linear-gradient(152deg, #7557a5 1.28%, #231a32 80.76%);
 }
 .bg-orange {
   background: linear-gradient(152deg, #ca701c 1.28%, #512e0d 80.76%);
+}
+.bg-green {
+  background: linear-gradient(152deg, #1bbc34 1.28%, #0f7c1a 80.76%);
 }
 
 /* Media Queries */

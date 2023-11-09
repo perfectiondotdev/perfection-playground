@@ -12,7 +12,7 @@
           "values": [
             {
               "name": "Dark",
-              "value": "pf-none",
+              "value": "bg-dark",
               "display": "#333"
             },
             {
@@ -24,6 +24,11 @@
               "name": "Orange",
               "value": "bg-orange",
               "display": "#CA701C"
+            },
+            {
+              "name": "Green",
+              "value": "bg-green",
+              "display": "#1BBC34"
             }
           ],
           "ui": "ui-colorgroup"
