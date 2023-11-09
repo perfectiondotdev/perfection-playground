@@ -1,9 +1,9 @@
 import Card from "./atoms/card";
 
-export default async function Browser({ uid, pageId }) {
+export default async function Browser() {
   return (
     <>
-      <section>
+      <section data-pf='{"sectionId":"gridSection", "title": "Grid Section"}'>
         <p>Browser component</p>
         <Card />
         <Card />

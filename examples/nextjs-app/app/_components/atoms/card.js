@@ -1,7 +1,7 @@
-export default async function Card({ uid, pageId }) {
+export default async function Card() {
   return (
     <>
-      <p>Card component</p>
+      <div data-pf='{"componentKey": "gridCard", "title": "Card", "groupId": "gridCard"}'>Card component</div>
     </>
   );
 }

@@ -1,4 +1,4 @@
-export default async function Header({ uid, pageId }) {
+export default async function Header() {
   return (
     <>
       <section>
