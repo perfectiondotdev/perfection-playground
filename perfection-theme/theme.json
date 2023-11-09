@@ -4,33 +4,62 @@
   "key": "github-examples-theme",
   "decorations": [
     {
-      "name": "Sugar",
-      "class": "bg-section-1"
+      "name": "Dark",
+      "class": "bg-section-dark"
     },
     {
-      "name": "Beluga",
-      "class": "bg-section-2"
+      "name": "Purple",
+      "class": "bg-section-purple"
     },
     {
-      "name": "Emptiness",
-      "class": "bg-section-3"
+      "name": "Orange",
+      "class": "bg-section-orange"
     },
     {
-      "name": "Zhen Pearl",
-      "class": "bg-section-4"
-    },
-    {
-      "name": "Eerie Black",
-      "class": "bg-section-5"
-    },
-    {
-      "name": "White Smoke",
-      "class": "bg-section-6"
+      "name": "Green",
+      "class": "bg-section-green"
     }
   ],
   "layouts": {
-    "prebuilt": ["col_100", "col_50_50", "col_25_25_50", "col_50_25_25", "col_33_33_33", "col_25_25_25_25", "col_16_16_16_16_16_16", "slider", "slider_4col"],
-    "custom": []
+    "prebuilt": [],
+    "custom": [
+      {
+        "name": "1 card",
+        "category": "grid",
+        "description": "1 card",
+        "class": "ui-section-1"
+      },
+      {
+        "name": "2 cards",
+        "category": "grid",
+        "description": "2 cards",
+        "class": "ui-section-2"
+      },
+      {
+        "name": "3 cards",
+        "category": "grid",
+        "description": "3 cards",
+        "class": "ui-section-3"
+      },
+      {
+        "name": "4 cards",
+        "category": "grid",
+        "description": "4 cards",
+        "class": "ui-section-4"
+      },
+      {
+        "name": "5 cards",
+        "category": "grid",
+        "description": "5 cards",
+        "class": "ui-section-5"
+      },
+      {
+        "name": "6 cards",
+        "category": "grid",
+        "description": "6 cards",
+        "class": "ui-section-6"
+      }
+    ]
   },
   "componentFolders": ["./components/"]
 }

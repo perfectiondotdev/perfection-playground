@@ -4,7 +4,7 @@ import { Lock } from "./img/lock";
 export default async function Preview() {
   return (
     <main>
-      <div className="ui-frame" data-pf='{"sectionId":"gridSection", "title": "Grid Section"}'>
+      <div className="ui-frame">
         <header>
           <nav />
           <span>
@@ -20,7 +20,7 @@ export default async function Preview() {
           </span>
           &gt;
         </code>
-        <section>
+        <section className="bg-section-dark">
           <code>
             &lt;section{" "}
             <span>

@@ -132,7 +132,6 @@ main {
   }
 
   & section:not(.ui-section) {
-    background-color: #191919;
     border: inherit;
     border-radius: var(--bdrs);
     margin-inline: var(--p);
@@ -147,7 +146,6 @@ main {
   }
 
   & section.ui-section {
-    background-color: #191919;
     border: none;
     display: grid;
     gap: 2.5ch;
@@ -237,6 +235,19 @@ main {
   background: linear-gradient(152deg, #1bbc34 1.28%, #0f7c1a 80.76%);
 }
 
+.bg-section-dark {
+  background-color: #191919;
+}
+.bg-section-purple {
+  background-color: #231a32;
+}
+.bg-section-orange {
+  background-color: #512e0d;
+}
+.bg-section-green {
+  background-color: #0f7c1a;
+}
+
 /* Media Queries */
 @media (min-width: 768px) {
   .ui-frame {
@@ -252,5 +263,23 @@ main {
 @media (min-width: 1024px) {
   .ui-frame {
     --gtc: 3;
+  }
+  .ui-section-1 {
+    --gtc: 1;
+  }
+  .ui-section-2 {
+    --gtc: 2;
+  }
+  .ui-section-3 {
+    --gtc: 3;
+  }
+  .ui-section-4 {
+    --gtc: 4;
+  }
+  .ui-section-5 {
+    --gtc: 5;
+  }
+  .ui-section-6 {
+    --gtc: 6;
   }
 }
