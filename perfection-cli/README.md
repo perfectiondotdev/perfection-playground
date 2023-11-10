@@ -1,4 +1,4 @@
-# Perfection Theme - CLI Usage
+# Perfection CLI - Manage Themes
 
 This folder demonstrate how you should scaffold your configuration file, theme.js and components json files
 
