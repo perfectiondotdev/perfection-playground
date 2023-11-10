@@ -1,8 +1,18 @@
-# Perfection - Next.js Pages Router
+# Perfection + Next.js Pages Router
+
+<p>
+<a href="https://githubbox.com/perfectiondotdev/perfection/tree/main/examples/nextjs-pages" target="_blank">
+    <img src="https://img.shields.io/badge/open%20in%20codesandbox-message?style=flat&logo=codesandbox&color=333&logoColor=fff" alt="Open in CodeSandbox" />
+  </a>
+    <img src="https://img.shields.io/badge/react-message?style=flat&logo=react&color=0bd&logoColor=fff" alt="React" />
+    <img src="https://img.shields.io/badge/next.js-message?style=flat&logo=next.js&color=07f&logoColor=fff" alt="Next.js" />
+</p>
 
 Perfection is an Digital Experience Composition tool for developers that enrich your preview site with Editing and Collaboration features.
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This example shows how to add Perfection on any website with Next.js.
+
+<img src="https://raw.githubusercontent.com/perfectiondotdev/perfection/main/assets/images/laptop.png" width="600" alt="Perfection Playground" />
 
 ## Getting Started
 

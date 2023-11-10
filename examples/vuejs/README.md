@@ -1,8 +1,17 @@
-# Perfection - Vue.js
+# Perfection + Vue.js
+
+<p>
+<a href="https://githubbox.com/perfectiondotdev/perfection/tree/main/examples/vuejs" target="_blank">
+    <img src="https://img.shields.io/badge/open%20in%20codesandbox-message?style=flat&logo=codesandbox&color=333&logoColor=fff" alt="Open in CodeSandbox" />
+  </a>
+    <img src="https://img.shields.io/badge/Vue.js-message?style=flat&logo=vue.js&color=41b27f&logoColor=fff" alt="React" />
+</p>
 
 Perfection is an Digital Experience Composition tool for developers that enrich your preview site with Editing and Collaboration features.
 
-This template should help get you started developing with Vue 3 in Vite.
+This example shows how to add Perfection on any website with Vue.js.
+
+<img src="https://raw.githubusercontent.com/perfectiondotdev/perfection/main/assets/images/laptop.png" width="600" alt="Perfection Playground" />
 
 ## Recommended IDE Setup
 

@@ -1,8 +1,17 @@
-# Perfection - Svelte
+# Perfection + Svelve
+
+<p>
+<a href="https://githubbox.com/perfectiondotdev/perfection/tree/main/examples/svelve" target="_blank">
+    <img src="https://img.shields.io/badge/open%20in%20codesandbox-message?style=flat&logo=codesandbox&color=333&logoColor=fff" alt="Open in CodeSandbox" />
+  </a>
+    <img src="https://img.shields.io/badge/Svelve-message?style=flat&logo=svelve&color=ff4000&logoColor=fff" alt="React" />
+</p>
 
 Perfection is an Digital Experience Composition tool for developers that enrich your preview site with Editing and Collaboration features.
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+This example shows how to add Perfection on any website with Svelve.
+
+<img src="https://raw.githubusercontent.com/perfectiondotdev/perfection/main/assets/images/laptop.png" width="600" alt="Perfection Playground" />
 
 ## Creating a project
 
