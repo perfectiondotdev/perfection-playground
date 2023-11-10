@@ -5,7 +5,7 @@ export default async function Card({ color = "bg-dark", uid = "" }) {
   //Perfection Helpers
   const helpers = oversiteHelpers.instances.get("homepage");
   const selector = helpers?.component.parts("gridCard", uid);
-  console.log(`Component [${uid}] ->`, selector("self", ""));
+  // console.log(`Component [${uid}] ->`, selector("self", ""));
 
   return (
     <>

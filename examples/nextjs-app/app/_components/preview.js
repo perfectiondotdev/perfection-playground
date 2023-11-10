@@ -6,8 +6,8 @@ export default async function Preview() {
   //Perfection Helpers
   const helpers = oversiteHelpers.instances.get("homepage");
   const part = oversiteHelpers.section.parts(helpers?.section.parts, "gridSection");
-  console.log("Section (Outer) -> ", part("outer", ""));
-  console.log("Section (Inner) -> ", part("inner", "ui-section"));
+  // console.log("Section (Outer) -> ", part("outer", ""));
+  // console.log("Section (Inner) -> ", part("inner", "ui-section"));
   return (
     <main>
       <div className="ui-frame">
