@@ -1,5 +1,14 @@
 # Perfection
 
+<p>
+    <img src="https://img.shields.io/badge/javascript-message?style=flat&logo=javascript&color=f7df1f&logoColor=333" alt="Javascript" />
+    <img src="https://img.shields.io/badge/react-message?style=flat&logo=react&color=0bd&logoColor=fff" alt="React" />
+    <img src="https://img.shields.io/badge/next.js-message?style=flat&logo=next.js&color=07f&logoColor=fff" alt="Next.js" />
+    <img src="https://img.shields.io/badge/Svelve-message?style=flat&logo=svelve&color=ff4000&logoColor=fff" alt="Svelve" />
+    <img src="https://img.shields.io/badge/Vue.js-message?style=flat&logo=vue.js&color=41b27f&logoColor=fff" alt="Vue.js" />
+    <img src="https://img.shields.io/badge/Astro-message?style=flat&logo=astro&color=bc52ee&logoColor=fff" alt="Astro" />
+</p>
+
 Perfection is an Digital Experience Composition tool for developers that enrich your preview site with Editing and Collaboration features.
 
 ## Examples

@@ -4,7 +4,7 @@
 <a href="https://githubbox.com/perfectiondotdev/perfection/tree/main/examples/astro" target="_blank">
     <img src="https://img.shields.io/badge/open%20in%20codesandbox-message?style=flat&logo=codesandbox&color=333&logoColor=fff" alt="Open in CodeSandbox" />
   </a>
-    <img src="https://img.shields.io/badge/Astro-message?style=flat&logo=astro&color=bc52ee&logoColor=fff" alt="React" />
+    <img src="https://img.shields.io/badge/Astro-message?style=flat&logo=astro&color=bc52ee&logoColor=fff" alt="Astro" />
 </p>
 
 Perfection is an Digital Experience Composition tool for developers that enrich your preview site with Editing and Collaboration features.
