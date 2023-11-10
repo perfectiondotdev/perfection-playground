@@ -12,6 +12,8 @@ Perfection is an Digital Experience Composition tool for developers that enrich 
 
 This example shows how to add Perfection on any website with Next.js.
 
+<img src="https://raw.githubusercontent.com/perfectiondotdev/perfection/main/assets/images/playground.svg" width="536" alt="Perfection Playground" />
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
