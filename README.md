@@ -16,7 +16,7 @@ Thoses examples show how to add Perfection on any website with pupolar FE framew
 
 <img src="https://raw.githubusercontent.com/perfectiondotdev/perfection/main/assets/images/laptop.png" width="600" alt="Perfection Playground" />
 
-## Examples
+## Integration Examples
 
 - [Astro](https://github.com/perfectiondotdev/perfection/tree/main/examples/astro)
 - [Javascript](https://github.com/perfectiondotdev/perfection/tree/main/examples/javascript)
@@ -25,6 +25,6 @@ Thoses examples show how to add Perfection on any website with pupolar FE framew
 - [Svelve](https://github.com/perfectiondotdev/perfection/tree/main/examples/svelve)
 - [Vue.js](https://github.com/perfectiondotdev/perfection/tree/main/examples/vuejs)
 
-## Examples
+## Perfection CLI
 
 ThiIn the [perfecltion-cli](https://github.com/perfectiondotdev/perfection/tree/main/perfection-cli) folder, you will see an example on how you should scaffold your configuration file, theme.js and components json files.
