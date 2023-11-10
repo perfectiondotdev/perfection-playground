@@ -34,10 +34,7 @@ export default async function Playground() {
             </span>{" "}
             /&gt;
           </code>
-          <section
-            className={part("inner", "ui-section")}
-            data-pf='{"sectionId":"gridSection", "title": "Grid Section"}'
-          >
+          <section className={part("inner", "ui-section")} data-pf='{"sectionId":"gridSection", "title": "Grid Section", "providerId":"generic-provider","entryId": "homepage"}'>
             <Card uid="card1" />
             <Card uid="card2" />
             <Card uid="card3" />

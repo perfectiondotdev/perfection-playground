@@ -24,7 +24,7 @@ export const revalidate = 10;
 export default function RootLayout({ children }) {
   return (
     <html lang="en-US" dir="ltr">
-      <body className={inter.className} data-pf='{"pageId": "homepage"}'>
+      <body className={inter.className} data-pf='{"pageId": "homepage", "providerId":"generic-provider","entryId": "homepage"}'>
         <Header />
         {children}
       </body>
