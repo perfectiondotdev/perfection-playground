@@ -1,6 +1,6 @@
 # Perfection - Next.js App Router
 
-<a href="https://githubbox.com/perfectiondotdev/perfection/tree/main/examples/nextjs-app">
+<a target="_blank" href="https://githubbox.com/perfectiondotdev/perfection/tree/main/examples/nextjs-app">
     <img src="https://img.shields.io/badge/open%20in%20codesandbox-message?style=flat&logo=codesandbox&color=333&logoColor=fff" alt="Open in CodeSandbox" />
   </a>
 
