@@ -4,7 +4,7 @@
 <a href="https://githubbox.com/perfectiondotdev/perfection/tree/main/examples/svelve" target="_blank">
     <img src="https://img.shields.io/badge/open%20in%20codesandbox-message?style=flat&logo=codesandbox&color=333&logoColor=fff" alt="Open in CodeSandbox" />
   </a>
-    <img src="https://img.shields.io/badge/Svelve-message?style=flat&logo=svelve&color=ff4000&logoColor=fff" alt="React" />
+    <img src="https://img.shields.io/badge/Svelve-message?style=flat&logo=svelve&color=ff4000&logoColor=fff" alt="Svelve" />
 </p>
 
 Perfection is an Digital Experience Composition tool for developers that enrich your preview site with Editing and Collaboration features.
