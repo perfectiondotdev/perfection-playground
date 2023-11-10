@@ -1,4 +1,4 @@
-# Perfection x Next.js App Router
+# Perfection + Next.js App Router
 
 <p>
 <a target="_blank" href="https://githubbox.com/perfectiondotdev/perfection/tree/main/examples/nextjs-app">
