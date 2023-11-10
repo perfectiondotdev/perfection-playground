@@ -11,6 +11,10 @@
 
 Perfection is an Digital Experience Composition tool for developers that enrich your preview site with Editing and Collaboration features.
 
+Thoses examples show how to add Perfection on any website with pupolar FE frameworks.
+
+<img src="https://raw.githubusercontent.com/perfectiondotdev/perfection/main/assets/images/laptop.png" width="600" alt="Perfection Playground" />
+
 ## Examples
 
 - [Astro](https://github.com/perfectiondotdev/perfection/tree/main/examples/astro)
