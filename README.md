@@ -17,4 +17,4 @@ This repository contains [examples](https://github.com/perfectiondotdev/perfecti
 
 ## Perfection CLI
 
-ThiIn the [perfecltion-cli](https://github.com/perfectiondotdev/perfection/tree/main/perfection-cli) folder, you will see an example on how you should scaffold your configuration file, theme.js and components json files.
+In [perfecltion-cli](https://github.com/perfectiondotdev/perfection/tree/main/perfection-cli) folder, you will see an example on how you should scaffold your configuration file, theme.js and components json files.
