@@ -3,3 +3,4 @@ perfection-theme/perfection.json
 test/*
 *.DS_Store
 perfection-cli/perfection.json
+perfection-cli/components/perfection.json
