@@ -4,3 +4,4 @@ test/*
 *.DS_Store
 perfection-cli/perfection.json
 perfection-cli/components/perfection.json
+examples/javascript/env.js

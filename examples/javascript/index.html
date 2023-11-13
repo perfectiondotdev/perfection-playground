@@ -4,8 +4,11 @@
     <title>Perfection</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-    <meta name="description" content="DESCRIPTION HERE" />
+    <meta name="description" content="Perfection Example for Vanilla Javascript" />
     <link rel="stylesheet" href="main.css" />
+
+    <!-- OVERSITE SCRIPT / CDN -->
+    <script src="https://unpkg.com/@perfectiondev/oversite@latest/dist/index.iife.js"></script>
   </head>
   <body data-pf='{"pageId": "homepage", "providerId":"generic-provider","entryId": "homepage"}'>
     <nav class="ui-nav">
@@ -52,7 +55,7 @@
     <header class="ui-header">
       <a href="" class="ui-button-link">
         <img src="images/github.svg" />
-        Discover more examples
+        Vanilla Javascript - Discover more examples
         <img src="images/chevron-right.svg" />
       </a>
       <h1>Supercharge your preview environment</h1>
@@ -104,5 +107,11 @@
         </section>
       </div>
     </main>
+    <script type="module">
+      import { oversiteConfig } from "./env.js";
+      const oversite = await init(Object.assign(oversiteConfig, "homepage"));
+      /* Init Oversite */
+      if ("oversite" in window) window.oversite.initialize(oversiteConfig);
+    </script>
   </body>
 </html>

@@ -12,3 +12,17 @@ Perfection is an Digital Experience Composition tool for developers that enrich 
 This example shows how to add Perfection on any website with Vanilla Javascript.
 
 <img src="https://raw.githubusercontent.com/perfectiondotdev/perfection/main/assets/images/laptop.png" width="600" alt="Perfection Playground" />
+
+## Getting Started
+
+First, you need to create you `env.js` file with your Perfection Site key, API Key, Subscription ID. An example is provided [in this file](env.js.example).
+
+Mount the folder in `VS Code` — be sure to install the plug-in `Live Server` by Ritwick Dey.
+
+Right-click on the `index.html`-file and chose "Open with Live Server"
+
+To work with a _fresh canvas_ replace the `data-pf`-value to something else than:
+
+```html
+<body data-pf='{"pageId": "yourid", "providerId":"generic-provider","entryId": "homepage"}'></body>
+```
