@@ -1,0 +1,13 @@
+<div
+	class="bg-dark"
+	data-pf={`{"providerId":"generic-provider","componentKey": "card", "title": "Card", "groupId": "gridCard", "entryId": "","instanceId": ""}`}
+>
+	<code>
+		&lt;component
+		<br />
+		<span>
+			data-pf="{'{'}...{'}'}"
+		</span>{' '}
+		/&gt;
+	</code>
+</div>
