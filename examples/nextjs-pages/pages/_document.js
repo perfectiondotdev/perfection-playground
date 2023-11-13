@@ -1,13 +1,13 @@
-import { Html, Head, Main, NextScript } from 'next/document'
+import { Html, Head, Main, NextScript } from "next/document";
 
 export default function Document() {
   return (
-    <Html lang="en">
+    <Html lang="en-US" dir="ltr">
       <Head />
-      <body>
+      <body data-pf='{"pageId": "homepage", "providerId":"generic-provider","entryId": "homepage"}'>
         <Main />
         <NextScript />
       </body>
     </Html>
-  )
+  );
 }

@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Perfection",
-  description: "Perfection Example for Next.js",
+  description: "Perfection Example for Next.js - App router",
 };
 
 export const viewport = {

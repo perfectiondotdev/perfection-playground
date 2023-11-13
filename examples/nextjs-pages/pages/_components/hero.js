@@ -8,7 +8,7 @@ export default function Hero() {
       {" "}
       <Link href="https://github.com/perfectiondotdev/perfection/tree/main/examples" target="_blank" className="ui-button-link">
         <GitHub />
-        Next.js App - Discover more examples
+        Next.js Pages - Discover more examples
         <Chevron />
       </Link>
       <h1>Supercharge your preview environment</h1>
