@@ -20,9 +20,3 @@ First, you need to create you `env.js` file with your Perfection Site key, API K
 Mount the folder in `VS Code` — be sure to install the plug-in `Live Server` by Ritwick Dey.
 
 Right-click on the `index.html`-file and chose "Open with Live Server"
-
-To work with a _fresh canvas_ replace the `data-pf`-value to something else than:
-
-```html
-<body data-pf='{"pageId": "yourid", "providerId":"generic-provider","entryId": "homepage"}'></body>
-```
