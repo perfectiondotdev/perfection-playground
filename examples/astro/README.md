@@ -15,9 +15,7 @@ This example shows how to add Perfection on any website with Astro.
 
 ## Basics
 
-```sh
-npm create astro@latest -- --template basics
-```
+First, you need to create you `.env` file with your Perfection Site key, API Key, Subscription ID. An example is provided [in this file](.env.example).
 
 ## 🚀 Project Structure
 
