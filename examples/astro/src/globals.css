@@ -16,6 +16,19 @@ body {
   margin: 0;
   padding: 0;
 }
+
+body > #__next,
+body > #__next > main > main {
+  display: grid;
+  gap: 5rem;
+  margin: 0;
+  padding: 0;
+}
+
+body > #__next > main {
+  padding-inline: 0;
+}
+
 a {
   color: inherit;
   text-decoration: none;
