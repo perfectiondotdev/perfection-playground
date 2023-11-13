@@ -1,13 +1,10 @@
 import Card from "./card";
 import { Lock } from "./img/lock";
-import { oversiteHelpers } from "../_clients/oversiteHelpers";
 
-export default function Playground() {
-  //Perfection Helpers
-  const helpers = oversiteHelpers.instances.get("homepage");
-  const part = oversiteHelpers.section.parts(helpers?.section.parts, "gridSection");
-  // console.log("Section (Outer) -> ", part("outer", ""));
-  // console.log("Section (Inner) -> ", part("inner", "ui-section"));
+//Should we make use of StyledComponent to avoid error of type
+// client.js: 2 Warning: Prop `className` did not match.Server: "ui-section sc-w-xxl ui-section-3" Client: "ui-section sc-w-xxl ui-section-4"
+
+export default function Playground(perfection) {
   return (
     <main>
       <div className="ui-frame">
@@ -26,7 +23,7 @@ export default function Playground() {
           </span>
           &gt;
         </code>
-        <section className={part("outer", "")}>
+        <section className={perfection.props.section_outer}>
           <code>
             &lt;section{" "}
             <span>
@@ -34,13 +31,13 @@ export default function Playground() {
             </span>{" "}
             /&gt;
           </code>
-          <section className={part("inner", "ui-section")} data-pf='{"sectionId":"gridSection", "title": "Grid Section", "providerId":"generic-provider","entryId": "homepage"}'>
-            <Card uid="card1" />
-            <Card uid="card2" />
-            <Card uid="card3" />
-            <Card uid="card4" />
-            <Card uid="card5" />
-            <Card uid="card6" />
+          <section className={perfection.props.section_inner} data-pf='{"sectionId":"gridSection", "title": "Grid Section", "providerId":"generic-provider","entryId": "homepage"}'>
+            <Card uid="card1" props={perfection.props.components[0]} />
+            <Card uid="card2" props={perfection.props.components[1]} />
+            <Card uid="card3" props={perfection.props.components[2]} />
+            <Card uid="card4" props={perfection.props.components[3]} />
+            <Card uid="card5" props={perfection.props.components[4]} />
+            <Card uid="card6" props={perfection.props.components[5]} />
           </section>
         </section>
       </div>
