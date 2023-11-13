@@ -9,9 +9,9 @@ This repository contains [examples](https://github.com/perfectiondotdev/perfecti
 ## Integration Examples
 
 - [Astro](https://github.com/perfectiondotdev/perfection/tree/main/examples/astro) (Soon)
-- [Javascript](https://github.com/perfectiondotdev/perfection/tree/main/examples/javascript) (Soon)
+- [Javascript](https://github.com/perfectiondotdev/perfection/tree/main/examples/javascript)
 - [Next.js App Router](https://github.com/perfectiondotdev/perfection/tree/main/examples/nextjs-app)
-- [Next.js Pages Router](https://github.com/perfectiondotdev/perfection/tree/main/examples/nextjs-pages) (Soon)
+- [Next.js Pages Router](https://github.com/perfectiondotdev/perfection/tree/main/examples/nextjs-pages)
 - [Svelve](https://github.com/perfectiondotdev/perfection/tree/main/examples/svelve) (Soon)
 - [Vue.js](https://github.com/perfectiondotdev/perfection/tree/main/examples/vuejs) (Soon)
 
