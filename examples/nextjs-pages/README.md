@@ -16,7 +16,9 @@ This example shows how to add Perfection on any website with Next.js.
 
 ## Getting Started
 
-First, run the development server:
+First, you need to create you `env.local` file with your Perfection Site key, API Key, Subscription ID. An example is provided [in this file](.env.local.example).
+
+Then, run the development server:
 
 ```bash
 npm run dev

@@ -1,7 +1,7 @@
 {
-  "name": "Github Examples Theme",
-  "description": "Github Examples Theme",
-  "key": "github-examples-theme",
+  "name": "Github Playground Theme",
+  "description": "Github Playground Theme",
+  "key": "github-playground-theme",
   "decorations": [
     {
       "name": "Dark",

@@ -8,7 +8,7 @@
       "selector": "self",
       "properties": [
         {
-          "name": "Color",
+          "name": "Card Color",
           "values": [
             {
               "name": "Dark",
