@@ -1,8 +1,13 @@
 ---
+interface Props {
+  uid: string;
+  style: string;
+}
 
+const { uid, style } = Astro.props;
 ---
 
-<div class="bg-dark" data-pf={`{"providerId":"generic-provider","componentKey": "card", "title": "Card", "groupId": "gridCard", "entryId": "","instanceId": ""}`}>
+<div class={style} data-pf={`{"providerId":"generic-provider","componentKey": "card", "title": "Card", "groupId": "gridCard", "entryId": "${uid}","instanceId": "${uid}"}`}>
   <code>
     &lt;component
     <br />

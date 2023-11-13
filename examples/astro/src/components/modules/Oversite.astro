@@ -1,0 +1,14 @@
+---
+
+---
+
+<script>
+  import oversite from "@perfectiondev/oversite";
+  if (import.meta.env.PUBLIC_PERFECTION_PREVIEW == "true") {
+    oversite.initialize({
+      apiKey: import.meta.env.PUBLIC_PERFECTION_API_KEY,
+      subscription: import.meta.env.PUBLIC_PERFECTION_SUBSCRIPTION_ID,
+      site: import.meta.env.PUBLIC_PERFECTION_SITE_NAME,
+    });
+  }
+</script>
