@@ -10,7 +10,7 @@
 		class="ui-button-link"
 	>
 		<Github />
-		Svelte - Discover more examples
+		SvelteKit - Discover more examples
 		<Chevron />
 	</a>
 	<h1>Supercharge your preview environment</h1>
