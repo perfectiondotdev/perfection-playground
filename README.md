@@ -12,7 +12,7 @@ This repository contains [examples](https://github.com/perfectiondotdev/perfecti
 - [Javascript](https://github.com/perfectiondotdev/perfection/tree/main/examples/javascript)
 - [Next.js App Router](https://github.com/perfectiondotdev/perfection/tree/main/examples/nextjs-app)
 - [Next.js Pages Router](https://github.com/perfectiondotdev/perfection/tree/main/examples/nextjs-pages)
-- [Svelte](https://github.com/perfectiondotdev/perfection/tree/main/examples/svelte) (Soon)
+- [Svelte](https://github.com/perfectiondotdev/perfection/tree/main/examples/svelte)
 - [Vue.js](https://github.com/perfectiondotdev/perfection/tree/main/examples/vuejs) (Soon)
 
 ## Perfection CLI
