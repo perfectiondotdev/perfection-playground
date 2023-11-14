@@ -1,4 +1,4 @@
-<a href="" class="ui-logo">
+<a href="/" class="ui-logo">
 	<div class="ui-logo--petal">
 		<svg viewBox="0 0 140 187">
 			<path fill="url(#a)" d="M0 0c38.66 0 70 31.34 70 70v46.62c0 38.66-31.34 70-70 70V0Z" />

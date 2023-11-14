@@ -7,15 +7,15 @@
 		<Logo />
 		<menu>
 			<li>
-				<a href="">Solutions</a>
+				<a href="/">Solutions</a>
 			</li>
 			<li>
-				<a href="">Learn</a>
+				<a href="/">Learn</a>
 			</li>
 			<li>
-				<a href="">About</a>
+				<a href="/">About</a>
 			</li>
 		</menu>
-		<a href="" class="ui-cta ui-cta--sm"> Get started</a>
+		<a href="/" class="ui-cta ui-cta--sm"> Get started</a>
 	</div>
 </nav>
