@@ -6,7 +6,7 @@
 
 This folder demonstrate how you should scaffold your configuration file, theme.js and components json files.
 
-To use our CLI, please read that page https://docs.perfection.dev/general/quickstart/create-theme
+To use our CLI, please read that page https://docs.perfection.dev/general/cli/intro
 
 First, you need to create an `perfection.json` file with your `API Key` and `Subscription ID`. An example is provided [in this file](perfection.json.example).
 
