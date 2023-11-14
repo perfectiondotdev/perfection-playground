@@ -13,17 +13,9 @@ This example shows how to add Perfection on any website with Svelte.
 
 <img src="https://raw.githubusercontent.com/perfectiondotdev/perfection/main/assets/images/laptop.png" width="600" alt="Perfection Playground" />
 
-## Creating a project
+## Getting Started
 
-If you're seeing this, you've probably already done this step. Congrats!
-
-```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+First, you need to create you `.env` file with your Perfection Site key, API Key, Subscription ID. An example is provided [in this file](.env.example).
 
 ## Developing
 
