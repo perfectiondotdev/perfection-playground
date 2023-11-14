@@ -13,7 +13,7 @@ export class oversiteHelpers {
 			const result = await OH.init({
 				apiKey: import.meta.env.VITE_PUBLIC_PERFECTION_API_KEY,
 				subscriptionId: import.meta.env.VITE_PUBLIC_PERFECTION_SUBSCRIPTION_ID,
-				// apiURL: import.meta.env.NEXT_PUBLIC_PERFECTION_API_URL_DEV, //Only needed for dev
+				// apiURL: import.meta.env.VITE_PUBLIC_PERFECTION_API_URL_DEV, //Only needed for dev
 				siteName: import.meta.env.VITE_PUBLIC_PERFECTION_SITE_NAME,
 				// @ts-ignore
 				pageId,

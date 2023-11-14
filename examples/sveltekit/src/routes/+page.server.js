@@ -17,12 +17,12 @@ export function load() {
 	const component5 = helpers?.component.parts('gridCard', 'card5');
 	const component6 = helpers?.component.parts('gridCard', 'card6');
 	const components = [
-		component1('self', 'bg-dark'),
-		component2('self', 'bg-dark'),
-		component3('self', 'bg-dark'),
-		component4('self', 'bg-dark'),
-		component5('self', 'bg-dark'),
-		component6('self', 'bg-dark')
+		component1('self', 'bg-dark') || '',
+		component2('self', 'bg-dark') || '',
+		component3('self', 'bg-dark') || '',
+		component4('self', 'bg-dark') || '',
+		component5('self', 'bg-dark') || '',
+		component6('self', 'bg-dark') || ''
 	];
 	return { section_outer, section_inner, components };
 }
