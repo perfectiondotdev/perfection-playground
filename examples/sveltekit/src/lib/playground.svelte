@@ -1,6 +1,20 @@
 <script>
 	import Lock from './img/lock.svelte';
 	import Card from './card.svelte';
+
+	/**
+	 * @type {any}
+	 */
+	export let sectionOuter;
+	/**
+	 * @type {any}
+	 */
+	export let sectionInner;
+	/**
+	 * @type {any}
+	 */
+	export let components;
+
 </script>
 
 <main>
@@ -20,7 +34,7 @@
 			</span>
 			&gt;
 		</code>
-		<section class="">
+		<section class={sectionOuter}>
 			<code>
 				&lt;section{' '}
 				<span>
@@ -29,15 +43,15 @@
 				/&gt;
 			</code>
 			<section
-				class="ui-section"
+				class={sectionInner}
 				data-pf={`{"sectionId":"gridSection", "title": "Grid Section", "providerId":"generic-provider","entryId": "homepage"}`}
 			>
-				<Card />
-				<Card />
-				<Card />
-				<Card />
-				<Card />
-				<Card />
+				<Card uid="card1" style={components[0]}/>
+				<Card uid="card2" style={components[1]}/>
+				<Card uid="card3" style={components[2]}/>
+				<Card uid="card4" style={components[3]}/>
+				<Card uid="card5" style={components[4]}/>
+				<Card uid="card6" style={components[5]}/>
 			</section>
 		</section>
 	</div>

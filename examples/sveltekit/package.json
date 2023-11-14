@@ -26,6 +26,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@perfectiondev/oversite": "^1.0.54"
+		"@perfectiondev/oversite": "^1.0.54",
+		"@perfectiondev/oversite-helpers": "^1.0.5"
 	}
 }
