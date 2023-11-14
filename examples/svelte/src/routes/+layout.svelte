@@ -4,10 +4,10 @@
 	import { onMount } from 'svelte';
 
 	onMount(() => {
-		initPerfection();
+		initOversite();
 	});
 
-	function initPerfection() {
+	function initOversite() {
 		if (import.meta.env.VITE_PUBLIC_PERFECTION_PREVIEW == 'true') {
 			// @ts-ignore
 			oversite.initialize({
@@ -22,7 +22,7 @@
 <svelte:head>
 	<script
 		src="https://unpkg.com/@perfectiondev/oversite@latest/dist/index.iife.js"
-		on:load={initPerfection}
+		on:load={initOversite}
 	></script>
 </svelte:head>
 
