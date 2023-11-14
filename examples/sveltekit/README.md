@@ -1,7 +1,7 @@
-# Perfection + Svelte
+# Perfection + SvelteKit
 
 <p>
-<a href="https://githubbox.com/perfectiondotdev/perfection/tree/main/examples/svelte" target="_blank">
+<a href="https://githubbox.com/perfectiondotdev/perfection/tree/main/examples/sveltekit" target="_blank">
     <img src="https://img.shields.io/badge/open%20in%20codesandbox-message?style=flat&logo=codesandbox&color=333&logoColor=fff" alt="Open in CodeSandbox" />
   </a>
     <img src="https://img.shields.io/badge/Svelte-message?style=flat&logo=svelte&color=ff4000&logoColor=fff" alt="Svelte" />
