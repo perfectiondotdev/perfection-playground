@@ -8,6 +8,6 @@ This folder demonstrate how you should scaffold your configuration file, theme.j
 
 To use our CLI, please read that page https://docs.perfection.dev/general/quickstart/create-theme
 
-First, you need to create you `perfection.json` file with your API Key and Subscription ID. An example is provided [in this file](perfection.json.example).
+First, you need to create an `perfection.json` file with your `API Key` and `Subscription ID`. An example is provided [in this file](perfection.json.example).
 
 <img src="https://raw.githubusercontent.com/perfectiondotdev/perfection/main/assets/images/cli.png" width="600" alt="Perfection CLI" />

@@ -15,7 +15,7 @@ This example shows how to add Perfection on any website with Vanilla Javascript.
 
 ## Getting Started
 
-First, you need to create you `env.js` file with your Perfection Site key, API Key, Subscription ID. An example is provided [in this file](env.js.example).
+First, you need to create an `env.js` file with your Perfection `Site Name`, `API Key` and `Subscription ID`. An example is provided [in this file](env.js.example).
 
 Mount the folder in `VS Code` — be sure to install the plug-in `Live Server` by Ritwick Dey.
 

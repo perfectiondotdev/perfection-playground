@@ -18,7 +18,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, you need to create you `.env.local` file with your Perfection Site key, API Key, Subscription ID. An example is provided [in this file](.env.local.example).
+First, you need to create an `.env.local` file with your `Site Name`, `API Key` and `Subscription ID`. An example is provided [in this file](.env.local.example).
 
 Then, run the development server:
 

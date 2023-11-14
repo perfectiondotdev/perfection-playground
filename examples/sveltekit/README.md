@@ -15,7 +15,7 @@ This example shows how to add Perfection on any website with Svelte.
 
 ## Getting Started
 
-First, you need to create you `.env` file with your Perfection Site key, API Key, Subscription ID. An example is provided [in this file](.env.example).
+First, you need to create an `.env` file with your `Site Name`, `API Key` and `Subscription ID`. An example is provided [in this file](.env.example).
 
 ## Developing
 
