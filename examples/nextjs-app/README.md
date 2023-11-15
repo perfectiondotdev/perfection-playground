@@ -14,9 +14,9 @@ This example shows how to add Perfection on any website with Next.js.
 
 <img src="https://raw.githubusercontent.com/perfectiondotdev/perfection/main/assets/images/laptop.png" width="600" alt="Perfection Playground" />
 
-## Try the demo
+## Try the live demo
 
-Open [http://localhost:3000](http://localhost:3000) in a new tab to see the result.
+Open [https://sft4vg-3000.csb.app/](https://sft4vg-3000.csb.app/) in a new tab to see the result.
 
 ## Getting Started
 
