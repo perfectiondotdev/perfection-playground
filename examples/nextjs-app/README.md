@@ -16,7 +16,7 @@ This example shows how to add Perfection on any website with Next.js.
 
 ## Try the live demo
 
-Open [https://sft4vg-3000.csb.app/](https://sft4vg-3000.csb.app/) in a new tab to see the result.
+Open [http://localhost:3000](http://localhost:3000) in a new tab to see the result.
 
 ## Getting Started
 
