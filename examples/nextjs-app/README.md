@@ -16,10 +16,7 @@ This example shows how to add Perfection on any website with Next.js.
 
 ## Try the demo
 
-Open [http://localhost:3000](http://localhost:3000) in a new tab to see the result. Use those shared credentials to login into Perfection:
-
-- Email: `demo@perfection.dev`
-- Password: `thisisasharedaccount`
+Open [http://localhost:3000](http://localhost:3000) in a new tab to see the result.
 
 ## Getting Started
 
