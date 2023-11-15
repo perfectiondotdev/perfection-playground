@@ -14,6 +14,13 @@ This example shows how to add Perfection on any website with Next.js.
 
 <img src="https://raw.githubusercontent.com/perfectiondotdev/perfection/main/assets/images/laptop.png" width="600" alt="Perfection Playground" />
 
+## Try the demo
+
+Open [http://localhost:3000](http://localhost:3000) in a new tab to see the result. Use those shared credentials to login into Perfection:
+
+- Email: `demo@perfection.dev`
+- Password: `thisisasharedaccount`
+
 ## Getting Started
 
 First, you need to create an `.env.local` file with your `Site Name`, `API Key` and `Subscription ID`. An example is provided [in this file](.env.local.example).

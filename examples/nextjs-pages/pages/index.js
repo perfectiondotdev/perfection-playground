@@ -9,12 +9,14 @@ export async function getServerSideProps() {
   //Perfection Helpers
   await oversiteHelpers.init("homepage");
   const helpers = oversiteHelpers.instances.get("homepage");
+  //console.log(helpers.utils.getInstances());
   //Get Section
   const section = oversiteHelpers.section.parts(helpers?.section.parts, "gridSection");
   const section_outer = section("outer", "");
   const section_inner = section("inner", "ui-section");
   //Get Components
   const component1 = helpers?.component.parts("gridCard", "card1");
+  //console.log(component1("self"));
   const component2 = helpers?.component.parts("gridCard", "card2");
   const component3 = helpers?.component.parts("gridCard", "card3");
   const component4 = helpers?.component.parts("gridCard", "card4");

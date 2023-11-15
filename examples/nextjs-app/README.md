@@ -14,7 +14,12 @@ This example shows how to add Perfection on any website with Next.js.
 
 <img src="https://raw.githubusercontent.com/perfectiondotdev/perfection/main/assets/images/laptop.png" width="600" alt="Perfection Playground" />
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Try the demo
+
+Open [http://localhost:3000](http://localhost:3000) in a new tab to see the result. Use those shared credentials to login into Perfection:
+
+- Email: `demo@perfection.dev`
+- Password: `thisisasharedaccount`
 
 ## Getting Started
 

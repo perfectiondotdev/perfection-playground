@@ -13,6 +13,13 @@ This example shows how to add Perfection on any website with Vanilla Javascript.
 
 <img src="https://raw.githubusercontent.com/perfectiondotdev/perfection/main/assets/images/laptop.png" width="600" alt="Perfection Playground" />
 
+## Try the demo
+
+Open [http://localhost:5500/](http://localhost:5500/) in a new tab to see the result. Use those shared credentials to login into Perfection:
+
+- Email: `demo@perfection.dev`
+- Password: `thisisasharedaccount`
+
 ## Getting Started
 
 First, you need to create an `env.js` file with your Perfection `Site Name`, `API Key` and `Subscription ID`. An example is provided [in this file](env.js.example).
