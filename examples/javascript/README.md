@@ -15,10 +15,7 @@ This example shows how to add Perfection on any website with Vanilla Javascript.
 
 ## Try the demo
 
-Open [http://localhost:5500/](http://localhost:5500/) in a new tab to see the result. Use those shared credentials to login into Perfection:
-
-- Email: `demo@perfection.dev`
-- Password: `thisisasharedaccount`
+Open [http://localhost:5500/](http://localhost:5500/) in a new tab to see the result.
 
 ## Getting Started
 

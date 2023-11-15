@@ -15,10 +15,7 @@ This example shows how to add Perfection on any website with Vue.js.
 
 ## Try the demo
 
-Open [http://localhost:5173/](http://localhost:5173/) in a new tab to see the result. Use those shared credentials to login into Perfection:
-
-- Email: `demo@perfection.dev`
-- Password: `thisisasharedaccount`
+Open [http://localhost:5173/](http://localhost:5173/) in a new tab to see the result.
 
 ## Recommended IDE Setup
 
