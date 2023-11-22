@@ -8,6 +8,7 @@
 		providerId: 'generic-provider',
 		componentKey: 'card',
 		title: 'Card',
+		entryId: crypto.randomUUID(),
 		groupId: 'gridCard',
 		instanceId: uid
 	}
