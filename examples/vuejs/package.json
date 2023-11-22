@@ -10,6 +10,8 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
+    "@perfectiondev/oversite": "^1.0.57",
+    "@perfectiondev/oversite-helpers": "^1.0.5",
     "vue": "^3.3.4"
   },
   "devDependencies": {
