@@ -9,7 +9,9 @@ export async function getServerSideProps() {
   //Perfection Helpers
   await oversiteHelpers.init("homepage");
   const helpers = oversiteHelpers.instances.get("homepage");
-  //console.log(helpers.utils.getInstances());
+  // console.log(helpers.utils.getInstances().sections);
+  // console.log(helpers.utils.getInstances().components);
+  //console.log(helpers?.section.parts("gridSection"));
   //Get Section
   const section = oversiteHelpers.section.parts(helpers?.section.parts, "gridSection");
   const section_outer = section("outer", "");
