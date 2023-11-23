@@ -12,6 +12,7 @@ This repository contains [examples](https://github.com/perfectiondotdev/perfecti
 - [Javascript](https://github.com/perfectiondotdev/perfection/tree/main/examples/javascript)
 - [Next.js App Router](https://github.com/perfectiondotdev/perfection/tree/main/examples/nextjs-app)
 - [Next.js Pages Router](https://github.com/perfectiondotdev/perfection/tree/main/examples/nextjs-pages)
+- [Nuxt](https://github.com/perfectiondotdev/perfection/tree/main/examples/nuxt)
 - [SvelteKit](https://github.com/perfectiondotdev/perfection/tree/main/examples/sveltekit)
 - [Vue.js](https://github.com/perfectiondotdev/perfection/tree/main/examples/vuejs)
 

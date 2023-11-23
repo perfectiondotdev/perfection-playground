@@ -1,8 +1,19 @@
-# Nuxt 3 Minimal Starter
+# Perfection + Nuxt
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+<p>
+<a href="https://githubbox.com/perfectiondotdev/perfection/tree/main/examples/nuxt" target="_blank">
+    <img src="https://img.shields.io/badge/open%20in%20codesandbox-message?style=flat&logo=codesandbox&color=333&logoColor=fff" alt="Open in CodeSandbox" />
+  </a>
+    <img src="https://img.shields.io/badge/Nuxt-message?style=flat&logo=nuxt&color=41b27f&logoColor=fff" alt="Nuxt" />
+</p>
 
-## Setup
+Perfection is an Digital Experience Composition tool for developers that enrich your preview site with Editing and Collaboration features.
+
+This example shows how to add Perfection on any website with Nuxt.
+
+<img src="https://raw.githubusercontent.com/perfectiondotdev/perfection/main/assets/images/laptop.png" width="600" alt="Perfection Playground" />
+
+## Try the demo
 
 Make sure to install the dependencies:
 
