@@ -11,7 +11,7 @@
 		class="ui-button-link"
 	>
 
-	<IconGithub /> Vue.js - Discover more examples
+	<IconGithub /> Nuxt - Discover more examples
 	<IconChevron />
 
 	</a>
