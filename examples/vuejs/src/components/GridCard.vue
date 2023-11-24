@@ -1,5 +1,5 @@
 <script setup>
-	import { oversiteHelpers } from '../oversite.js';
+	import { oversiteHelpers } from '../scripts/helpers.js';
 	const uid = defineProps(['uid']);
 	const helpers = oversiteHelpers.instances.get("homepage");
 	const selector = helpers?.component.parts("gridCard", uid) || ((selector, classes) => { return classes });

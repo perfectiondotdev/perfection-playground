@@ -1,10 +1,12 @@
 <script setup>
 	import IconLock from '@/components/img/IconLock.vue';
 	import GridCard from '@/components/GridCard.vue';
-	import { oversiteHelpers } from '../oversite.js';
+	import { oversiteHelpers } from '../scripts/helpers.js';
 
-	const helpers = oversiteHelpers.instances.get("homepage");
-	const part = oversiteHelpers.section.parts(helpers?.section.parts, "gridSection");
+	await oversiteHelpers.init("homepage");
+	const helpers = oversiteHelpers?.instances.get("homepage");
+	const part = oversiteHelpers?.section.parts(helpers?.section.parts, "gridSection");
+	console.log(part);
 </script>
 
 <template>
@@ -19,18 +21,18 @@
 			<span>+</span>
 		</header>
 		<code>
-			&lt;body{' '}
+			&lt;body
 			<span>
-				data-pf="{'{'}...{'}'}"
+				data-pf="{'...'}"
 			</span>
 			&gt;
 		</code>
 		<section :class="part('outer', '')">
 			<code>
-				&lt;section{' '}
+				&lt;section
 				<span>
-					data-pf="{'{'}...{'}'}"
-				</span>{' '}
+					data-pf="{'...'}"
+				</span>
 				/&gt;
 			</code>
 			<section :class="part('inner', 'ui-section')" data-pf='{"sectionId":"gridSection", "title": "Grid Section", "providerId":"generic-provider","entryId": "homepage"}'>
