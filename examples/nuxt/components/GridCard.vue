@@ -2,17 +2,16 @@
 	import { oversiteHelpers } from '../scripts/helpers';
 
 	await oversiteHelpers.init("homepage");
-	const uid = defineProps(['uid']);
+	const props = defineProps(['uid']);
 	const helpers = oversiteHelpers?.instances.get("homepage");
-	const selector = helpers?.component.parts("gridCard", uid) || ((selector, classes) => { return classes });
-
+	const selector = helpers?.component.parts("gridCard", props.uid) || ((selector, classes) => { return classes });
 	const pf = {
 		providerId: 'generic-provider',
 		componentKey: 'card',
 		title: 'Card',
 		entryId: crypto.randomUUID(),
 		groupId: 'gridCard',
-		instanceId: uid
+		instanceId: props.uid
 	}
 </script>
 
