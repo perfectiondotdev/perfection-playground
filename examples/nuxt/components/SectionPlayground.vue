@@ -3,9 +3,10 @@
 	import GridCard from '@/components/GridCard.vue';
 	import { oversiteHelpers } from '../scripts/helpers';
 
+	await oversiteHelpers.init("homepage");
 	const helpers = oversiteHelpers?.instances.get("homepage");
 	const part = oversiteHelpers?.section.parts(helpers?.section.parts, "gridSection");
-	// console.log(oversiteHelpers)
+
 </script>
 
 <template>
