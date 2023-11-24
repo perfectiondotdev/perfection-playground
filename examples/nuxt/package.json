@@ -16,7 +16,8 @@
     "vue-router": "^4.2.5"
   },
   "dependencies": {
-    "@perfectiondev/oversite": "^1.0.58",
+    "@perfectiondev/oversite": "^1.0.59",
+    "@perfectiondev/oversite-delivery-api-client": "^0.10.2501",
     "@perfectiondev/oversite-helpers": "^1.0.5"
   }
 }

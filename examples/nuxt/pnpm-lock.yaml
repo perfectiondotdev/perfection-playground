@@ -6,8 +6,11 @@ settings:
 
 dependencies:
   '@perfectiondev/oversite':
-    specifier: ^1.0.58
-    version: 1.0.58
+    specifier: ^1.0.59
+    version: 1.0.59
+  '@perfectiondev/oversite-delivery-api-client':
+    specifier: ^0.10.2501
+    version: 0.10.2501
   '@perfectiondev/oversite-helpers':
     specifier: ^1.0.5
     version: 1.0.5
@@ -1360,12 +1363,16 @@ packages:
       '@parcel/watcher-win32-x64': 2.3.0
     dev: true
 
+  /@perfectiondev/oversite-delivery-api-client@0.10.2501:
+    resolution: {integrity: sha512-1tcxFGMlaphCCHeTvZDkU3qHwutQidj5Jotl4Eq/q+UXkiBegQW4mOSyKa2f+y0omsjkYbNEDrQ1Z0T519aCdg==}
+    dev: false
+
   /@perfectiondev/oversite-helpers@1.0.5:
     resolution: {integrity: sha512-dw1E5bkCLNPwRH+QVd7zkGyhj4ZnNVOR1WiYX+70OQRFViY0kNnO4acYyxOUWFz7nirSUxTo3vJJv0CYDsrE/w==}
     dev: false
 
-  /@perfectiondev/oversite@1.0.58:
-    resolution: {integrity: sha512-IZSgCniaJ3m16FrQWx4cyP6Xpd+E/t8Ax/buD9S71+bToXG1Q6SAF0qZPPiaSjZ1AZ99oSrT9irsRcYFU48R7w==}
+  /@perfectiondev/oversite@1.0.59:
+    resolution: {integrity: sha512-6o60P+S+uv+9+iMKWvS1Tg5GIXxFm3zLEsdiuw74ofjHy5nXbyYrhwUTE/LL4lZVF+dJIQCjwp1n0FueebSoMA==}
     dev: false
 
   /@pkgjs/parseargs@0.11.0:
