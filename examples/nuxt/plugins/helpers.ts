@@ -1,10 +1,11 @@
 import oversiteHelpers from '@perfectiondev/oversite-helpers'
-import type { OversiteHelpersData } from '@perfectiondev/oversite-helpers/dist/types/data'
 
-export default defineNuxtPlugin(() => {
-  const helpers = computed(() => {
-    const data = useState<OversiteHelpersData>('oversite:data').value
-    return oversiteHelpers.initWith(data)
+export default defineNuxtPlugin(async () => {
+  const helpers = await oversiteHelpers.init({
+    apiKey: import.meta.env.VITE_PUBLIC_PERFECTION_API_KEY,
+    siteName: import.meta.env.VITE_PUBLIC_PERFECTION_SITE_NAME,
+    subscriptionId: import.meta.env.VITE_PUBLIC_PERFECTION_SUBSCRIPTION_ID,
+    preview: import.meta.env.VITE_PUBLIC_PERFECTION_PREVIEW === 'true',
   })
 
   return {

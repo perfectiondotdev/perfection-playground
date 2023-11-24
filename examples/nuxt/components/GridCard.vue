@@ -3,7 +3,7 @@ const { $helpers } = useNuxtApp()
 
 const uid = defineProps(['uid'])
 
-const selector = $helpers.value.component.parts('gridCard', uid.uid)
+const selector = $helpers.component.parts('gridCard', uid.uid)
 
 const pf = {
   providerId: 'generic-provider',

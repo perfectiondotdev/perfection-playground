@@ -4,7 +4,7 @@ import GridCard from '@/components/GridCard.vue'
 
 const { $helpers } = useNuxtApp()
 
-const part = $helpers.value.section.parts('gridSection')
+const part = $helpers.section.parts('gridSection')
 </script>
 
 <template>

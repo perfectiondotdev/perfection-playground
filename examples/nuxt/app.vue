@@ -1,22 +1,26 @@
 <script setup>
-import './assets/main.css'
-import HeroBanner from './components/HeroBanner.vue'
-import SectionPlayground from './components/SectionPlayground.vue'
-//Oversite is automatically loaded as placed in Nuxt 3 "plugins" folder, see here https://nuxt.com/docs/guide/directory-structure/plugins
+import '~/assets/main.css'
 
 useSeoMeta({
   title: 'Perfection',
   description: 'Perfection Example for Nuxt',
 })
+
+const route = useRoute()
+
+const bodyConfig = computed(() =>
+  JSON.stringify({
+    pageId: route.meta.pageId,
+    providerId: 'generic-provider',
+    entryId: route.meta.pageId,
+  })
+)
 </script>
 
 <template>
-  <Body data-pf='{"pageId": "homepage", "providerId":"generic-provider","entryId": "homepage"}'>
-      <NuxtLayout>
-        <HeroBanner />
-        <SectionPlayground />
-      </NuxtLayout>
+  <Body :data-pf="bodyConfig">
+    <NuxtLayout>
+      <NuxtPage />
+    </NuxtLayout>
   </Body>
 </template>
-
-
