@@ -2,10 +2,10 @@
 
 <p>
 <a href="https://githubbox.com/perfectiondotdev/perfection/tree/main/examples/nuxt" target="_blank">
-    <img src="https://img.shields.io/badge/open%20in%20codesandbox-message?style=flat&logo=codesandbox&color=333&logoColor=fff" alt="Open in CodeSandbox" />
-  </a>
-    <img src="https://img.shields.io/badge/Nuxt-message?style=flat&logo=nuxt&color=41b27f&logoColor=fff" alt="Nuxt" />
+    <img src="https://img.shields.io/badge/open%20in%20codesandbox-message?style=flat&logo=codesandbox&color=333&logoColor=fff" alt="Open in CodeSandbox" />  </a>
+    <img src="https://img.shields.io/badge/Nuxt-message?style=flat&logo=nuxtdotjs&color=00DC82&logoColor=fff" alt="Nuxt" />
 </p>
+
 
 Perfection is an Digital Experience Composition tool for developers that enrich your preview site with Editing and Collaboration features.
 
