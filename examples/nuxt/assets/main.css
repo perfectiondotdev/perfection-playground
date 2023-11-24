@@ -18,15 +18,15 @@ body {
   padding: 0;
 }
 
-body > #__nuxt,
-body > #__nuxt > main > main {
+body > #__nuxt > div,
+body > #__nuxt > div > main {
   display: grid;
   gap: 5rem;
   margin: 0;
   padding: 0;
 }
 
-body > #__next > main {
+body > #__next > div {
   padding-inline: 0;
 }
 
