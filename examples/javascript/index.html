@@ -9,6 +9,10 @@
 
     <!-- OVERSITE SCRIPT / CDN -->
     <script src="https://unpkg.com/@perfectiondev/oversite@latest/dist/index.iife.js"></script>
+    <script type="module">
+      import { oversiteConfig } from "./env.js";
+      if ("oversite" in window) window.oversite.initialize(oversiteConfig);
+    </script>
   </head>
   <body data-pf='{"pageId": "homepage", "providerId":"generic-provider","entryId": "homepage"}'>
     <nav class="ui-nav">
@@ -101,11 +105,5 @@
         </section>
       </div>
     </main>
-    <script type="module">
-      import { oversiteConfig } from "./env.js";
-      const oversite = await init(Object.assign(oversiteConfig, "homepage"));
-      /* Init Oversite */
-      if ("oversite" in window) window.oversite.initialize(oversiteConfig);
-    </script>
   </body>
 </html>
