@@ -1,6 +1,6 @@
 # Welcome to Perfection Playground
 
-Perfection is an Digital Experience Composition tool for developers that enrich your preview site with editing, styling, productivity and collaboration features.
+Perfection is an Lightweight Digital Experience Composition tool for developers that enrich your preview site with editing, styling, productivity and collaboration features.
 
 This repository contains [examples](https://github.com/perfectiondotdev/perfection/tree/main/examples) to show you how to integrate Perfection on your website with popular Front-end frameworks.
 
